@@ -1,3 +1,5 @@
+To view, the link to the github repo is here: https://github.com/LeoJuat/coalition-technologies-project
+
 # coalition-technologies-project
 
 ### Hero section
