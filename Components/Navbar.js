@@ -10,7 +10,6 @@ const Navbar = () => {
   const climbHandler = () => {
     window.scrollTo({ top: 1900, behavior: "smooth" });
   };
-
   return (
     <div className={styles.container}>
       <img className={styles.img} src={m1} alt="hero-section-mounatain" />
