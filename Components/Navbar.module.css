@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  position: absolute;
+  height: 3rem;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  gap: 2rem;
+  margin-top: 12px;
+  z-index: 999;
+  overflow-y: hidden;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+}

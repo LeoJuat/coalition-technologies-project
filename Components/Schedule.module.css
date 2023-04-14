@@ -1,0 +1,54 @@
+.container {
+  height: 90%;
+  width: 100%;
+  overflow-y: hidden;
+  margin-top: 10.5rem;
+  position: relative;
+}
+
+.dates {
+  display: flex;
+
+  gap: 12px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textContainer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 16rem;
+  gap: 2rem;
+  width: 30%;
+  flex-direction: column;
+  height: 20%;
+  color: black;
+  font-weight: 700;
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.text1 {
+  font-size: 2rem;
+  display: block;
+}
+
+.paragraph {
+  margin-top: 15%;
+  margin-left: 23%;
+  font-size: 1rem;
+  display: flex;
+
+  width: 60%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+}
+
+.img {
+  height: 50%;
+  width: 99vw;
+}

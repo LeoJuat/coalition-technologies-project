@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  position: absolute;
+  height: 4rem;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  gap: 2rem;
+  margin-top: 12px;
+  z-index: 999;
+  overflow-y: hidden;
+}
+
+.img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+}
